@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 
-const atlas = 'mongodb+srv://user1:VvkN1O2ttabd5UpY@cluster0-ezqai.mongodb.net/<dbname>?retryWrites=true&w=majority'
+const atlas = 'ask admin for the link...' 
 const url = 'mongodb://localhost/notesapp'
-mongoose.connect(atlas, {
+mongoose.connect(url, {
     useCreateIndex: true,
     useNewUrlParser: true,
     useFindAndModify: false,
